@@ -1,12 +1,19 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pakistan Macro Intelligence Dashboard</title>
-    <script type="module" crossorigin src="/assets/index-Bl4NlIO9.js"></script>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
-</html>
+{
+  "name": "pakistan-macro-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.2"
+  }
+}
